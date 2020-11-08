@@ -1,0 +1,78 @@
+.heading {
+    color: none;
+    background-color: #eaeaea;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    
+} 
+
+.fon {
+    color: darkblue;
+    background: url(img/tif.webp) no-repeat 20px 40px;
+    
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list > li {
+    color: none;
+    font-size: 18px;
+    font-style:oblique;
+    line-height: 21px;
+}
+
+.link {
+   text-decoration: none;
+    color: forestgreen;
+}
+
+h1,
+h2,
+p{
+    text-align: center
+}
+
+.menu li {
+    list-style-type: none;
+    
+}
+.menu li a {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.background{
+    background-color: #f8f8f8;
+}
+
+.hst{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.pak{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+input[type=text]{
+    width: 200px;
+    font-style: italic;
+    color: #707070;
+    
+}
+input[type=password]{
+    width: 200px;
+    font-style: italic;
+    color: #707070;
+}
+input[type=submit]{
+    width: 250px;
+    font-style: normal; 
+}
