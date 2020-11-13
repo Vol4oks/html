@@ -1,3 +1,20 @@
+.header {
+    
+}
+.footer{
+    background-color: gray;
+    
+}
+.footer a {
+    color: #000;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: red;
+}
+.footer a:active {
+    color: greenyellow;
+}
 .heading {
     color: none;
     background-color: #eaeaea;
@@ -6,35 +23,29 @@
     font-weight: 400;
     
 } 
-
 .fon {
     color: darkblue;
     background: url(img/tif.webp) no-repeat 20px 40px;
     
 }
-
 .list {
     list-style-type: none;
 }
-
 .list > li {
     color: none;
     font-size: 18px;
     font-style:oblique;
     line-height: 21px;
 }
-
 .link {
    text-decoration: none;
     color: forestgreen;
 }
-
 h1,
 h2,
 p{
     text-align: center
 }
-
 .menu li:first-child{ 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;    
@@ -65,11 +76,21 @@ p{
 .menu li a:active {
     color: greenyellow;
 }
-
 .background{
     background-color: #f8f8f8;
 }
-
+.har{
+    border: 1px solid #000;
+    width: 400px;
+    height: 300px;
+    border-collapse: collapse;
+}
+.har td{
+    border: 1px solid black;
+    padding-left: 10px;
+    vertical-align: bottom;
+    text-align: start;
+}
 .hst{
     color: #484343;
     font-size: 16px;
@@ -98,3 +119,10 @@ input[type=submit]{
     width: 250px;
     font-style: normal; 
 }
+
+
+
+
+
+
+
